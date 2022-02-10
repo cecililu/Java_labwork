@@ -1,7 +1,7 @@
 public class Labeled{
     public static void main(String args[]){
         aa:
-        for (int i=0;i<3;i++){
+        for (int i=0;i<3;i++)
         
         for(int j=0;j<3;j++){
             System.out.println(i+" " +j);
@@ -9,7 +9,7 @@ public class Labeled{
             break aa;
         }
             System.out.println("Out of inner loop");
-        }
-         System.out.println("out of all loops ");
+        
+     
 }
 }

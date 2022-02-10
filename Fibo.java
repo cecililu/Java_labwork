@@ -4,14 +4,17 @@ public class Fibo{
         String num = JOptionPane.showInputDialog
          ("How many numbers do you want in your series?");
         int number=Integer.parseInt(num);
-        int a=0;
-        int b=1;
+        int a=1;
+        int b=0;
         int c=0;
-        for (int i=0;i< number;i++){
-           System.out.println(c);
+          for (int i=0;i<=number;i++){
+            
+        System.out.println(c);
             c=a+b;
+            
             a=b;
             b=c;
+           
 
         }
     }

@@ -15,7 +15,7 @@ public class Functionuse{
        float c=0;
        c=(a+b)/2;
        System.out.print(c);
-       return c;     
+       return c;    
     }
 
 

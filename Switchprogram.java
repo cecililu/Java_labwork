@@ -45,6 +45,7 @@ public class Switchprogram{
         }
         default:{
             System.out.println("Invalid input");
+            break;
              }
         
     }
